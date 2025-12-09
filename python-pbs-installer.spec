@@ -2,7 +2,7 @@
 %define uname pbs_installer
 
 Name:		python-pbs-installer
-Version:	2025.3.17
+Version:	2025.12.5
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/pbs-installer/%{uname}-%{version}.tar.gz
 Summary:	Installer for Python Build Standalone
@@ -16,16 +16,6 @@ BuildRequires:	python%{pyver}dist(pdm-backend)
 
 %description
 Installer for Python Build Standalone
-
-%prep
-%autosetup -p1 -n %{uname}-%{version}
-
-%build
-%py_build
-
-%install
-%py_install
-
 
 %files
 %{_bindir}/pbs-install
