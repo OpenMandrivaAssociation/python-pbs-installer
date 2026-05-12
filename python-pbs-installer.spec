@@ -2,7 +2,7 @@
 %define oname pbs_installer
 
 Name:		python-pbs-installer
-Version:	2026.5.8
+Version:	2026.5.10
 Release:	1
 Summary:	Installer for Python Build Standalone
 License:	MIT
